@@ -1,0 +1,83 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #004aad;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #004aad;
+}
+
+/* Project Cards */
+.project {
+  background-color: #ffffff;
+  padding: 20px;
+  border-left: 5px solid #004aad;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
